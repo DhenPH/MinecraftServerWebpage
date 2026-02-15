@@ -658,6 +658,7 @@ body, html {height: 100%}
     font-style: normal;
     font-weight: 400;
     src: local('SF Pixelate'), url('SF Pixelate.woff') format('woff');
+	font-display: swap;
 }
 @font-face {
     font-family: 'SF Pixelate';
@@ -670,6 +671,7 @@ body, html {height: 100%}
     font-style: normal;
     font-weight: 700;
     src: local('SF Pixelate'), url('SF Pixelate Bold.woff') format('woff');
+	font-display: swap;
 }
 @font-face {
     font-family: 'SF Pixelate';
@@ -707,6 +709,7 @@ body, html {height: 100%}
     font-style: normal;
     font-weight: 400;
     src: local('Minecraft'), url('MinecraftTen-VGORe.woff') format('woff');
+	font-display: swap;
 }
 
 

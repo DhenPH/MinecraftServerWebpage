@@ -177,6 +177,7 @@
       </div>
     </footer>
     <script>
+		document.addEventListener('DOMContentLoaded', function() {
         fetch('https://api.mcsrvstat.us/3/temporalrealms.online')
 			.then(res => res.text())
 			.then(rep => {
@@ -244,6 +245,7 @@
 	}
 	catch(err){}
 	})
+			});
     </script>
 </body>
 </html>

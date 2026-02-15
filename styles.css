@@ -657,7 +657,7 @@ body, html {height: 100%}
     font-family: 'SF Pixelate';
     font-style: normal;
     font-weight: 400;
-    src: local('SF Pixelate'), url('https://fonts.cdnfonts.com/s/7402/SF Pixelate.woff') format('woff');
+    src: local('SF Pixelate'), url('SF Pixelate.woff') format('woff');
 }
 @font-face {
     font-family: 'SF Pixelate';
@@ -669,7 +669,7 @@ body, html {height: 100%}
     font-family: 'SF Pixelate';
     font-style: normal;
     font-weight: 700;
-    src: local('SF Pixelate'), url('https://fonts.cdnfonts.com/s/7402/SF Pixelate Bold.woff') format('woff');
+    src: local('SF Pixelate'), url('SF Pixelate Bold.woff') format('woff');
 }
 @font-face {
     font-family: 'SF Pixelate';
@@ -706,7 +706,7 @@ body, html {height: 100%}
     font-family: 'Minecraft';
     font-style: normal;
     font-weight: 400;
-    src: local('Minecraft'), url('https://fonts.cdnfonts.com/s/36662/MinecraftTen-VGORe.woff') format('woff');
+    src: local('Minecraft'), url('MinecraftTen-VGORe.woff') format('woff');
 }
 
 

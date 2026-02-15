@@ -158,10 +158,12 @@
         fetch('https://api.mcsrvstat.us/3/temporalrealms.online')
 			.then(res => res.text())
 			.then(rep => {
+				try{
     let xdata = JSON.parse(rep);
     let playercount = xdata.players.online;
             document.getElementById("onlineplayer").innerText = playercount + " Online";
             document.getElementById("staticon").style.color = "#ffd900";
+				}catch(err){}
 	})
     var thissheetnamexx = "topd"
 	var SHEET_ID = "18ePmktxWGmbAwDUDUnpRViakVFczr1DwgQIBNA2reQU"

@@ -713,3 +713,17 @@ body, html {height: 100%}
 }
 
 
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Minecraft'), url('fa-brands-400.woff') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Minecraft'), url('fa-solid-900.woff') format('woff2');
+	font-display: swap;
+}

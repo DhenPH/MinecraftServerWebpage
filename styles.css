@@ -1,8 +1,8 @@
-body,h1,h2 {font-family: "Raleway", sans-serif}
+body,h1,h2 {font-family: "Raleway", sans-serif;font-display: swap;}
 body, html {height: 100%}
 #servergoal{
 	font-family:'SF Pixelate', sans-serif;
-	font-size:18px;
+	font-size:18px;font-display: swap;
 }
 .bgimg {
   background-image:linear-gradient(rgba(0,0,0,0.5) 70%, #121111), url('bg.avif');
@@ -182,7 +182,7 @@ body, html {height: 100%}
   border-radius: 10px;
   box-shadow: 0px 0px 4px 0px rgba(255, 255,255, 0.1);
   color:white;
-  font-family:'SF Pixelate', sans-serif;
+  font-family:'SF Pixelate', sans-serif;font-display: swap;
   text-shadow: 1px 1px black;
 }
 .maintitle{
@@ -190,7 +190,7 @@ body, html {height: 100%}
   font-size: 25px;
   font-weight:1;
   text-align: center;
-  color:white;
+  color:white;font-display: swap;
 }
     .hcaption h1{
         font-family: 'Minecraft', sans-serif;
@@ -199,7 +199,7 @@ body, html {height: 100%}
         text-align: center;
         color:whitesmoke;
         margin:0px;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px black;font-display: swap;
     }
     main{
       min-height: 100vh;
@@ -207,18 +207,18 @@ body, html {height: 100%}
     .ctitle{
         font-family: 'Minecraft', sans-serif;
         text-align: center;
-        color:black;
+        color:black;font-display: swap;
     }
     .comment{
         font-family: 'Minecraft', sans-serif;
         text-align: center;
-        color:white;
+        color:white;font-display: swap;
     }
     .ccomment{
         font-family: 'SF Pixelate', sans-serif;
         text-align: center;
         color:#111111;
-        font-weight:700;
+        font-weight:700;font-display: swap;
     }
     .mlogo{
         height:120px;
@@ -385,7 +385,7 @@ body, html {height: 100%}
         margin-right: 5px;
 		margin-top:0px;
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 10px;font-display: swap;
     }
     .maincontent{
         background-color: white;
@@ -444,7 +444,7 @@ body, html {height: 100%}
         text-align: center;
         color:black;
         padding-top:30px;
-		padding-bottom:50px;
+		padding-bottom:50px;font-display: swap;
     }
     .hcaptions, .hcaptions h1{
         font-family: 'Minecraft', sans-serif;
@@ -454,7 +454,7 @@ body, html {height: 100%}
         color:white;
         padding-top:30px;
 		padding-bottom:30px;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px black;font-display: swap;
     }
     .gcontent{
         background-color:#ebebeb;
@@ -476,7 +476,7 @@ body, html {height: 100%}
         text-align:center;
         font-family: 'SF Pixelate', sans-serif;
         font-weight:700;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px black;font-display: swap;
     }
     .ipadd{
         font-family: 'SF Pixelate', sans-serif;
@@ -486,7 +486,7 @@ body, html {height: 100%}
         padding-right:10px;
         padding-top:5px;
         padding-bottom:5px;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px black;font-display: swap;
     }
     .button5:hover {
   background-color: white;
@@ -513,7 +513,7 @@ body, html {height: 100%}
   cursor: pointer;
   font-family: 'SF Pixelate', sans-serif;
   font-weight:700;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;font-display: swap;
 }
     #staticon{
         color:#919191;
@@ -523,7 +523,7 @@ body, html {height: 100%}
     #onlineplayer{
         font-weight:700;
         font-family: 'SF Pixelate', sans-serif;
-        font-size:20px;
+        font-size:20px;font-display: swap;
     }
     #myVideo {
   position: absolute;
